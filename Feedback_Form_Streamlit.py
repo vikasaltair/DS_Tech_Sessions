@@ -9,7 +9,7 @@ import pandas as pd
 import streamlit as st
 from streamlit_star_rating import st_star_rating
 import sqlite3
-conn = sqlite3.connect('session_feedback.db')
+conn = sqlite3.connect('DS_Tech_Sessions/session_feedback.db')
 c = conn.cursor()
 
 def create_table():
