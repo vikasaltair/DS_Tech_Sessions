@@ -24,8 +24,8 @@ def add_feedback(session_date, speaker, speaker_mail_id, topic, date_submitted, 
 # In[2]:
 
 
-if "schedule_df" not in st.session_state:
-    st.session_state.schedule_df = pd.read_excel("Schedule.xlsx", skiprows = 2)
+#if "schedule_df" not in st.session_state:
+ #   st.session_state.schedule_df = pd.read_excel("Schedule.xlsx", skiprows = 2)
 
 session_date = datetime.strptime('2023-04-06', '%Y-%m-%d')
 topic = "Team member Recommendation"
